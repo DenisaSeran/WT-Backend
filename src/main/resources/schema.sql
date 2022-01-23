@@ -1,0 +1,7 @@
+CREATE TABLE MOVIE_TBL(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(250) NOT NULL,
+    director VARCHAR(250),
+    nr_tickets INT,
+    price INT NOT NULL
+);
